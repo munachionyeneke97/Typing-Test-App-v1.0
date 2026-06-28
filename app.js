@@ -45,7 +45,7 @@ let endTime;
 let timeTaken;
 let timeInSeconds;
 
-if (currentPath.includes("index.html")) {
+if (!currentPath.includes("result.html")) {
   showTime.textContent = " :-:";
   showAccuracy.textContent = " :-:";
   showWpm.textContent = " :-:";
